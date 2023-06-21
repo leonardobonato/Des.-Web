@@ -49,6 +49,7 @@ body {
 .header-content {
   display: flex;
   align-items: center;
+ 
 }
 
 .header-content > * {
@@ -58,11 +59,6 @@ body {
 .logo-empresa {
   width: 280px;
   margin-left: 30px;
-}
-
-.entrar-registrar {
-  margin-left: 200px;
-  padding: 10px;
 }
 
 .entrar {
@@ -132,8 +128,9 @@ a.btn.btn-primary {
 
 .beneficios {
   position: absolute;
-  margin-top: 25px;
+  margin-top: 50px;
   margin-left: 50px;
+  color: yellow;
 }
 
 .first-article {
@@ -166,4 +163,20 @@ li {
   color: #ffffff;
   margin-top: 125px;
   text-align: center;
+}
+
+span{
+  font-weight: 900;
+}
+
+.nav-link{
+
+  background-color: yellow;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.yellow{
+  color: yellow;
 }
